@@ -613,7 +613,7 @@ class AISysManagerUI(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    app.setStyle("Fusion")  # Modern look
+    app.setStyle("Fusion")  
     window = AISysManagerUI()
     window.show()
     sys.exit(app.exec_())
